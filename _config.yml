@@ -15,8 +15,9 @@
 # in the templates via {{ site.myvariable }}.
 title: Tyler Yasaka's Blog
 email: contact@tyleryasaka.me
-description: You are reading the blog of Tyler Yasaka.
+description: This is the blog of Tyler Yasaka, where he write notes to himself and anyone else who stumbles upon them.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
+homepage: "http://tyleryasaka.me" #homepage link in footer
 url: "http://tyleryasaka.me" # the base hostname & protocol for your site
 github_username:    tyleryasaka
 #instagram_username: jekyllrb
