@@ -88,6 +88,14 @@ article {
             font-weight: bold;
             letter-spacing: 2px;
         }
+
+        a {
+          color: $accent-color;
+          font-weight: bold;
+          &:hover {
+            color: darken($accent-color, 20%);
+          }
+        }
     }
 }
 
