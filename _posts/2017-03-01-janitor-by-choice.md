@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Janitor By Choice"
-date:   2017-01-14
+date:   2017-03-01
 ---
 
 One day not very long ago I was riding the bus. Most people on the buses here in Indianapolis keep to themselves, but occasionally I'll find myself sitting next to a chatty one. This was one of those days.
