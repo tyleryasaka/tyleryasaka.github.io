@@ -10,6 +10,8 @@ If you're interested in making yourself appear to be an intellectually superior 
 2. Learn obscure language hacks that minimize readability and maximize references to internal language constructs and syntactic quirks.
 3. Use said tricks to "improve" your team's codebase, making sure to indicate their superiority over any of your coworker's ideas.
 
+I'll give you a couple examples from JavaScript.
+
 Here's one:
 
 ```
