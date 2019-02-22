@@ -88,3 +88,11 @@
       background-color: darken($smoke-color, 5%);
   }
 } // end .pagination
+
+.logo {
+  width: 150px;
+  border: 1px solid #383838;
+  @media (max-width: 942px) {
+    width: 70px;
+  }
+}
