@@ -29,19 +29,19 @@
           <p>{{ site.author-bio }}</p>
       </div>
       <nav>
-        <h6>Follow me on</h6>
+        <h6>Say hi</h6>
         <ul>
-          {% if site.twitter %}
-          <li><a target="_blank" href="https://twitter.com/{{ site.twitter }}">Twitter</a></li>
-          {% endif %}
           {% if site.github %}
           <li><a target="_blank" href="https://github.com/{{ site.github }}">Github</a></li>
           {% endif %}
-          {% if site.dribbble %}
-          <li><a target="_blank" href="https://dribbble.com/{{ site.dribbble }}">Dribbble</a></li>
+          {% if site.linkedin %}
+          <li><a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin }}">LinkedIn</a></li>
           {% endif %}
-          {% if site.instagram %}
-          <li><a target="_blank" href="https://instagram.com/{{ site.instagram }}">Instagram</a></li>
+          {% if site.twitter %}
+          <li><a target="_blank" href="https://twitter.com/{{ site.twitter }}">Twitter</a></li>
+          {% endif %}
+          {% if site.email %}
+          <li><a target="_blank" href="mailto:{{ site.email }}">Email: {{ site.email }}</a></li>
           {% endif %}
         </ul>
       </nav>
@@ -62,7 +62,7 @@
       </main>
 
       <footer>
-        <small>Powered by Jekyll - Theme: <a href="https://github.com/m3xm/hikari-for-Jekyll">hikari</a> - &copy; {{ site.author }}</small>
+        <small>A wizard is never late. Nor is he early; he arrives precisely when he means to.</small>
       </footer>
 
     </div>
