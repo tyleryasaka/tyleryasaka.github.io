@@ -1,6 +1,6 @@
 header {
   width: 100%;
-  background: white;
+  background: $bg-color;
 }
 
 .h-wrap {
@@ -127,7 +127,7 @@ header {
   right: -25em;
   width: 25em;
   height: 100%;
-  background: $smoke-color;
+  background: lighten($bg-color, 8%);
   z-index: 100;
   overflow: auto;
 
@@ -161,7 +161,7 @@ header {
     }
     p {
       font-size: 90%;
-      color: lighten($text-color, 30%);
+      color: $text-color;
       margin-bottom: 0;
     }
   }
@@ -173,7 +173,7 @@ header {
       text-align: left;
       margin-top: $spacing-m;
       margin-bottom: $spacing-s;
-      color: lighten($text-color, 50%);
+      color: $text-color;
       padding-bottom: $spacing-xs;
       border-bottom: 1px solid $border-color;
     }

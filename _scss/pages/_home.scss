@@ -45,7 +45,7 @@
     } // end .p-wrap
 
     time {
-      color: darken($main-color, 20%);
+      color: $bg-color;
       display: inline-block;
       padding-right: $spacing-s;
       width: 155px;
@@ -56,7 +56,7 @@
     }
 
     a {
-      color: white;
+      color: $bg-color;
       text-decoration: none;
     }
 

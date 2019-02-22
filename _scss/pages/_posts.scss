@@ -3,7 +3,6 @@
   max-width: 740px;
   margin: $spacing-s auto;
   font-family: $variant-family;
-  background: white;
   z-index: 1;
 
   .single-content {
@@ -47,6 +46,7 @@
     padding: 0 $spacing-s;
     text-transform: none;
     letter-spacing: 1px;
+    color: $text-color;
   }
 
   .share {
@@ -61,7 +61,7 @@
     margin: 0 0 $spacing-m;
   }
 
-  ul, 
+  ul,
   ol {
     margin: $spacing-m 0;
     li {
@@ -111,28 +111,28 @@
   line-height: 1;
   border-radius: 100px;
   bottom: $spacing-m;
-  color: #333;
+  color: $text-color;
   @media (max-width: 942px) {
     position: static;
     padding: .8em $spacing-s .7em;
   }
 }
 
-#prev { 
-  left: 40px; 
+#prev {
+  left: 40px;
   @media (max-width: 942px) {
-    float: left; 
+    float: left;
   }
 }
 
-#next { 
-  right: 40px; 
+#next {
+  right: 40px;
   @media (max-width: 942px) {
-    float: right; 
+    float: right;
   }
 }
 
-#prev:active, 
+#prev:active,
 #next:active {
   border-color: $main-color;
 }
@@ -140,7 +140,7 @@
 .nav-title {
   display: none;
   @media (max-width: 942px) {
-    display: inline; 
+    display: inline;
   }
 }
 
