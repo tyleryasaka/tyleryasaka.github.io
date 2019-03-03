@@ -4,7 +4,9 @@ title:  Artomata&#58; Cellular Automata as Art
 date:   2019-02-22
 ---
 
-I have been working on a fun art project lately. I call it *artomata*. I came up with the idea once while I was thinking about cellular automata, and how cool they were. [Stanislaw Ulam](https://en.wikipedia.org/wiki/Stanislaw_Ulam) and [John von Neumann](https://en.wikipedia.org/wiki/John_von_Neumann) first introduced the concept of cellular automata in the 1940s. It is an idea rooted in mathematics but expressed in at least a few natural systems (if not a great many), such as this sea snail shell:
+![Lightly Rough Bleeding Heart](/assets/img/Lightly_Rough_Bleeding_Heart.png){: .small}
+
+I have been working on a fun art project lately. I call it *artomata*. I came up with the idea once while I was thinking about [cellular automata](https://en.wikipedia.org/wiki/Cellular_automaton), and how cool they were. [Stanislaw Ulam](https://en.wikipedia.org/wiki/Stanislaw_Ulam) and [John von Neumann](https://en.wikipedia.org/wiki/John_von_Neumann) first introduced the concept of cellular automata in the 1940s. It is an idea rooted in mathematics but expressed in at least a few natural systems (if not a great many), such as this sea snail shell:
 
 ![cellular automaton on a shell](https://upload.wikimedia.org/wikipedia/commons/7/7d/Textile_cone.JPG)
 
@@ -16,11 +18,11 @@ Conway's Game of Life is cool, but it is just the tip of the iceberg when it com
 
 ![Monthly Jealous Corydalis](/assets/img/Monthly_Jealous_Corydalis.png)
 
-The pentaflower consists of a grid of pentagons. The neighbors of each cell are the pentagons which it shares an edge with. The center cell has 5 neighbors, but all others have 3 neighbors. I wrote my code such that the rules can be adjusted, but by default the rule is that a cell is alive in the next generation if it currently has exactly 1 neighbor that is alive. If it has no alive neighbors, or if it has multiple alive neighbors, then it will be dead in the next generation.
+The pentaflower consists of a grid of pentagons. The neighbors of each cell are the pentagons with which it shares an edge. The center cell has 5 neighbors, but all others have 3 neighbors. I wrote my code such that the rules can be adjusted, but by default the rule is that a cell is alive in the next generation if it currently has exactly 1 neighbor that is alive. If it has no alive neighbors, or if it has multiple alive neighbors, then it will be dead in the next generation.
 
 You can see the rules in action by going [here](http://www.artomata.io/pentaflower/create?rings=20&generation=0&color1=%23FFFFFF&color2=%232E2E2E&color3=%23010101) and incrementing the value of *Generation* by 1 at a time. When you load the page it will be set to 0. By setting it to 1, then 2, then 3, etc., you can see the progression of the rules through each generation . Additionally, by setting the values of *Rings* (how big the grid should be) and the colors, many beautiful patterns can be created. You can see a gallery of some patterns I have made on [the artomata website](http://www.artomata.io/pentaflower). You can also use [this page](http://www.artomata.io/pentaflower/create?rings=20&generation=0&color1=%23FFFFFF&color2=%232E2E2E&color3=%23010101) to make pentaflowers of your own.
 
-If you're interested in learning more about how the pentaflower names are generated, you can see [this post]({% post_url 2019-03-02-naming-my-pentaflowers %}).
+If you're interested in learning about how the pentaflower names are generated, you can see [this post]({% post_url 2019-03-02-naming-my-pentaflowers %}).
 
 Time permitting, I am hoping to continue the artomata project in my free time, possibly utilizing different geometric shapes and other variations on cellular automata, such as non-binary states.
 
