@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Naming My Pentaflowers
-date:   2019-02-22
+date:   2019-03-02
 ---
 
 Since you were wondering, I will elaborate on how names are automatically generated for my pentaflowers (part of my [artomata]({% post_url 2019-03-02-artomata-cellular-automata-as-art %}) project).

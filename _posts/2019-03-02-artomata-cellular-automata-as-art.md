@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Artomata&#58; Cellular Automata as Art
-date:   2019-02-22
+date:   2019-03-02
 ---
 
 ![Lightly Rough Bleeding Heart](/assets/img/Lightly_Rough_Bleeding_Heart.png){: .small}
