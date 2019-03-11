@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/tyleryasaka
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://tyleryasaka.me
+  * I am tyleryasaka (https://keybase.io/tyleryasaka) on keybase.
+  * I have a public key ASDupBgPlYOguGUngSymIRoAVp3oxDcKPdhQb2zi1SZOPwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120866e4f032eb01ce1a68afa0024af85634eab0142f759256ae4abb9ac4efaa06f0a",
+      "host": "keybase.io",
+      "kid": "0120eea4180f9583a0b86527812ca6211a00569de8c4370a3dd8506f6ce2d5264e3f0a",
+      "uid": "d1361fe5ed5484c8bcb79f8118c07a19",
+      "username": "tyleryasaka"
+    },
+    "merkle_root": {
+      "ctime": 1552325892,
+      "hash": "9cd90d02c8be9caee97bbbcd49eb863d1cab713c153daa588f1976e6fc90aaff508774cb80a2efef42bb86d0cef5e56f0a646b8e5118ab2c40b8fd0d9b77129c",
+      "hash_meta": "471ea57ae040086f9cd735927f9c26b80f70ee5cc1c31e4af967cab34e5cf961",
+      "seqno": 4921723
+    },
+    "service": {
+      "entropy": "QMWaljEp6Zq4D9zQ03OtHj3f",
+      "hostname": "tyleryasaka.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.1.0"
+  },
+  "ctime": 1552325904,
+  "expire_in": 504576000,
+  "prev": "2b103cd6621f77df90fe53acc7380fe7bb70487fe9a0361414c721f10b0e7b30",
+  "seqno": 38,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg7qQYD5WDoLhlJ4EspiEaAFad6MQ3Cj3YUG9s4tUmTj8Kp3BheWxvYWTESpcCJsQgKxA81mIfd9+Q/lOsxzgP57twSH/poDYUFMch8QsOezDEIOOwNHLTZNqvFGFl+bxVue6icUoqQ1eWlEnQc6k99b/DAgHCo3NpZ8RAmWDX8Fej8kJj52wvfeTOBupzfNBerVs1R9R8uFb2/WrRY9EE0nIZiX3kjKrcrtjSpPngeO15wDQeQo/OQbS4A6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIOrtVIpnkaXSHydFg6yMzJ1W4tHgxCAgw4f8Pi4WLppJo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tyleryasaka
+
+==================================================================
