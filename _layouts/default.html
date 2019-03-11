@@ -29,10 +29,16 @@
           <p>{{ site.author-bio }}</p>
       </div>
       <nav>
-        <h6>Say hi</h6>
+        <h6>Elsewhere on the interwebs</h6>
         <ul>
           {% if site.github %}
           <li><a target="_blank" href="https://github.com/{{ site.github }}">Github</a></li>
+          {% endif %}
+          {% if site.soundcloud %}
+          <li><a target="_blank" href="https://soundcloud.com/{{ site.soundcloud }}">SoundCloud</a></li>
+          {% endif %}
+          {% if site.github %}
+          <li><a target="_blank" href="http://www.artomata.io">Artomata</a></li>
           {% endif %}
           {% if site.linkedin %}
           <li><a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin }}">LinkedIn</a></li>

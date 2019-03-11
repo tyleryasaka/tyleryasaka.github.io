@@ -11,13 +11,14 @@ url: "https://tyleryasaka.me"
 baseurl: ""
 
 # A short presentation of yourself. Will show in the sidebar, under your name. Best usage would be between 30 to 50 words.
-author-bio: "I'm an experienced software engineer transitioning to a career in medicine. Hobbies currently include Brazilian Jiu Jitsu, writing computer code, and reading English. I have lots of thoughts, the more coherent of which may be expressed in this blog."
+author-bio: "I'm an experienced software engineer transitioning to a career in medicine. Hobbies currently include Brazilian Jiu Jitsu, writing computer code, reading, and occasionally creating electronic music. I have lots of thoughts, the more coherent of which may be expressed in this blog."
 
 # Social Accounts (mine, as placeholders)
 
 twitter: YasakaTyler
 github: tyleryasaka
 linkedin: tyler-yasaka-79424070
+soundcloud: incline-eight
 email: contact@tyleryasaka.me
 
 # Google Analytics (you may want to changes these with yours or even delete :)
