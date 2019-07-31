@@ -22,8 +22,6 @@ The pentaflower consists of a grid of pentagons. The neighbors of each cell are 
 
 You can see the rules in action by going [here](http://www.artomata.io/pentaflower/create?rings=20&generation=0&color1=%23FFFFFF&color2=%232E2E2E&color3=%23010101) and incrementing the value of *Generation* by 1 at a time. When you load the page it will be set to 0. By setting it to 1, then 2, then 3, etc., you can see the progression of the rules through each generation . Additionally, by setting the values of *Rings* (how big the grid should be) and the colors, many beautiful patterns can be created. You can see a gallery of some patterns I have made on [the artomata website](http://www.artomata.io/pentaflower). You can also use [this page](http://www.artomata.io/pentaflower/create?rings=20&generation=0&color1=%23FFFFFF&color2=%232E2E2E&color3=%23010101) to make pentaflowers of your own.
 
-If you're interested in learning about how the pentaflower names are generated, you can see [this post]({% post_url 2019-03-02-naming-my-pentaflowers %}).
-
 Time permitting, I am hoping to continue the artomata project in my free time, possibly utilizing different geometric shapes and other variations on cellular automata, such as non-binary states.
 
 [artomata.io](http://www.artomata.io)
