@@ -9,6 +9,7 @@ body {
 	background-position: center;
 	background-size: cover;
 	overflow-x: hidden;
+	background: #f7f4eb;
 }
 
 a {
@@ -30,12 +31,15 @@ a {
 	margin: 15px;
 }
 
-.logo img {
-	width: 100px;
-	margin: 10px auto;
-	display: block;
-	border-radius: 100%;
-	border: 1px solid #000;
+.logo {
+	img {
+		background: #fff;
+		width: 100px;
+		margin: 10px auto;
+		display: block;
+		border-radius: 100%;
+		border: 1px solid #000;
+	}
 }
 
 // .divider {
@@ -134,12 +138,10 @@ h1, h2, h3, h4 {
 	padding: 6px 25px;
 	height: 26px;
 	border-bottom: 4px solid rgba(0, 0, 0, 0);
-	transition: .25s;
 }
 
 #menu .item a:hover {
 	border-bottom: 4px solid rgba(0, 0, 0, 255);
-	transition: .25s;
 }
 
 #menu .item .diamond {
@@ -169,14 +171,14 @@ h1, h2, h3, h4 {
 }
 
 #profile {
-	height: 125px;
-	width: 125px;
+	height: 150px;
+	width: 150px;
 	margin: 35px auto;
 	border-radius: 100%;
 	display: block;
 	background-image: url('/assets/img/avatar.jpg');
 	background-size: cover;
-	transition: .25s;
+	border: 1px solid #000;
 }
 
 .gallery {
@@ -232,18 +234,19 @@ h1, h2, h3, h4 {
 		.p-wrap {
 			padding: 10px;
 			background: #fcfcfc;
-			transition: .25s;
+			p {
+				margin-top: 0;
+				margin-bottom: 0;
+			}
 		}
 		&:nth-child(even) {
 			.p-wrap {
 				background: #f4f4f4;
-				transition: .25s;
 			}
 		}
 		a:hover {
 			.p-wrap {
-				background: #222;
-				transition: .25s;
+				background: #000;
 				color: #fff;
 			}
 		}
