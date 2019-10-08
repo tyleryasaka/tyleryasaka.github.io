@@ -2,7 +2,7 @@
   width: 100%;
   max-width: 740px;
   margin: $spacing-s auto;
-  font-family: $variant-family;
+  // font-family: $variant-family;
   z-index: 1;
 
   .single-content {
@@ -10,6 +10,10 @@
     @media (max-width: 642px) {
       padding-bottom: $spacing-l;
     }
+  }
+
+  a {
+    text-decoration: underline;
   }
 
   .feat {
