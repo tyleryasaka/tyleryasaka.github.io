@@ -1,3 +1,12 @@
+:root {
+  --bg: #181818;
+	--bg2: #0a0a0a;
+	--text: #b5b5b5;
+	--link: #a5f0e1;
+	--post-odd: #ccc;
+	--post-even: #ddd;
+}
+
 body {
 	padding: 0;
 	margin: 0;
@@ -9,12 +18,13 @@ body {
 	background-position: center;
 	background-size: cover;
 	overflow-x: hidden;
-	background: #f7f4eb;
+	background: var(--bg);
+	color: var(--text);
 }
 
 a {
 	text-decoration: none;
-	color: #000;
+	color: var(--link);
 }
 
 .preload {
@@ -32,35 +42,21 @@ a {
 }
 
 .logo {
-	img {
-		background: #fff;
+	text-align: center;
+
+	svg {
+		background: var(--bg2);
 		width: 100px;
 		margin: 10px auto;
 		display: block;
 		border-radius: 100%;
-		border: 1px solid #000;
+		border: 10px solid var(--bg2);
+		fill: var(--link);
 	}
-}
 
-// .divider {
-// 	border-top: 1px solid #000;
-// 	border-bottom: 1px solid #000;
-// 	height: 4px;
-// 	padding: 1px 0 1px 0;
-// 	position: relative;
-// }
-//
-// .divider:before {
-// 	position: absolute;
-// 	top: 1px;
-// 	width: 100%;
-// 	height: 4px;
-// 	background: #000;
-// 	content: '';
-// }
-
-.divider {
-	border-bottom: 1px solid #000;
+	a {
+		display: inline-block;
+	}
 }
 
 section {
@@ -68,7 +64,7 @@ section {
 }
 
 section a {
-	color: #000;
+	color: var(--link);
 	text-decoration: none;
 }
 
@@ -118,10 +114,10 @@ h1, h2, h3, h4 {
 
 #menu {
 	height: 46px;
-	border-top: 1px solid #000;
-	border-bottom: 1px solid #000;
+	border-top: 10px solid var(--bg2);
+	border-bottom: 10px solid var(--bg2);
 	text-align: center;
-	background: #fff;
+	background: var(--bg2);
 }
 
 #menu .item {
@@ -134,20 +130,14 @@ h1, h2, h3, h4 {
 	text-decoration: none;
 	font-weight: 300;
 	text-transform: uppercase;
-	color: #000;
+	color: var(--link);
 	padding: 6px 25px;
 	height: 26px;
-	border-bottom: 4px solid rgba(0, 0, 0, 0);
+	border-bottom: none
 }
 
 #menu .item a:hover {
-	border-bottom: 4px solid rgba(0, 0, 0, 255);
-}
-
-#menu .item .diamond {
-	display: inline-block;
-	height: 30px;
-	line-height: 30px;
+	border-bottom: 4px solid var(--link);
 }
 
 #menu-filler {
@@ -178,7 +168,7 @@ h1, h2, h3, h4 {
 	display: block;
 	background-image: url('/assets/img/avatar.jpg');
 	background-size: cover;
-	border: 1px solid #000;
+	border: 10px solid var(--bg2);
 }
 
 .gallery {
@@ -225,29 +215,32 @@ h1, h2, h3, h4 {
 		text-decoration: none;
 	}
 	ul {
-		border-top: 1px solid #000;
-		border-bottom: 1px solid #000;
 		list-style: none;
 		padding-left: 0;
 	}
 	li {
 		.p-wrap {
 			padding: 10px;
-			background: #fcfcfc;
+			background: var(--bg2);
+			color: var(--link);
+			margin-bottom: 5px;
 			p {
 				margin-top: 0;
 				margin-bottom: 0;
 			}
 		}
-		&:nth-child(even) {
-			.p-wrap {
-				background: #f4f4f4;
-			}
+		// &:nth-child(even) {
+		// 	.p-wrap {
+		// 		background: var(--post-even);
+		// 	}
+		// }
+		a {
+			color: var(--text);
 		}
 		a:hover {
 			.p-wrap {
-				background: #000;
-				color: #fff;
+				background: var(--link);
+				color: var(--bg2);
 			}
 		}
 	}
@@ -268,14 +261,14 @@ h1, h2, h3, h4 {
 }
 
 #social svg {
-	color: #000;
+	color: var(--link);
 	width: 40px;
 	height: 40px;
 	margin: 5px;
 }
 
 #social svg path {
-	fill: #000;
+	fill: var(--link);
 	transition: .25s;
 }
 
@@ -305,19 +298,19 @@ h1, h2, h3, h4 {
 	#menu.fixed {
 		position: static;
 		box-shadow: none;
-		border-top: 1px solid #000;
-		border-bottom: 1px solid #000;
+		border-top: 1px solid var(--link);
+		border-bottom: 1px solid var(--link);
 	}
 	#menu.fixed + #menu-filler {
 		display: none;
 	}
 	#menu .item a {
 		border: 1px solid #ddd;
-		border-bottom: 1px solid #000;
+		border-bottom: 1px solid var(--link);
 		background: #f8f8f8;
 	}
 	#menu .item a:hover {
-		border-bottom: 1px solid #000;
+		border-bottom: 1px solid var(--link);
 	}
 	.block {
 		width: 100%;
