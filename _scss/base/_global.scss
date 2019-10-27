@@ -61,15 +61,20 @@ a {
 
 section {
 	padding-top: 50px;
-}
 
-section a {
-	color: var(--link);
-	text-decoration: none;
-}
+  & > p {
+    padding: 15px;
+    background: var(--bg2);
+  }
 
-section a:hover {
-	text-decoration: underline;
+  a {
+  	color: var(--link);
+  	text-decoration: none;
+  }
+
+  a:hover {
+  	text-decoration: underline;
+  }
 }
 
 h1 {
@@ -229,11 +234,6 @@ h1, h2, h3, h4 {
 				margin-bottom: 0;
 			}
 		}
-		// &:nth-child(even) {
-		// 	.p-wrap {
-		// 		background: var(--post-even);
-		// 	}
-		// }
 		a {
 			color: var(--text);
 		}
@@ -305,9 +305,7 @@ h1, h2, h3, h4 {
 		display: none;
 	}
 	#menu .item a {
-		border: 1px solid #ddd;
-		border-bottom: 1px solid var(--link);
-		background: #f8f8f8;
+		background: var(--bg2);
 	}
 	#menu .item a:hover {
 		border-bottom: 1px solid var(--link);
