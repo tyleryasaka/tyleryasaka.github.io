@@ -1,8 +1,8 @@
 :root {
-  --bg: #181818;
-	--bg2: #0a0a0a;
+  --bg: #0a0a0a;
+	--bg2: #181818;
 	--text: #b5b5b5;
-	--link: #a5f0e1;
+	--link: #eee;
 	--post-odd: #ccc;
 	--post-even: #ddd;
 }
@@ -75,11 +75,13 @@ blockquote {
 }
 
 section {
-	padding-top: 50px;
+	padding-top: 10px;
 
   & > p {
-    padding: 15px;
-    background: var(--bg2);
+    text-align: center;
+    // padding: 15px;
+    // background: var(--bg2);
+    // border-radius: 5px;
   }
 
   a {
@@ -183,12 +185,12 @@ h1, h2, h3, h4 {
 #profile {
 	height: 150px;
 	width: 150px;
-	margin: 35px auto;
+	margin: auto;
 	border-radius: 100%;
 	display: block;
 	background-image: url('/assets/img/avatar.jpg');
 	background-size: cover;
-	border: 10px solid var(--bg2);
+	border: 5px solid var(--bg2);
 }
 
 .gallery {
@@ -240,11 +242,13 @@ h1, h2, h3, h4 {
 	}
 	li {
 		.p-wrap {
+      border-radius: 5px;
 			padding: 10px;
 			background: var(--bg2);
 			color: var(--link);
 			margin-bottom: 5px;
 			p {
+        font-family: 'Caveat';
 				margin-top: 0;
 				margin-bottom: 0;
 			}
