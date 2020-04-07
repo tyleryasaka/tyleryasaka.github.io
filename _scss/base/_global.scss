@@ -1,5 +1,5 @@
 :root {
-  --bg: #0a0a0a;
+  --bg: #222;
 	--bg2: #181818;
 	--text: #b5b5b5;
 	--link: #eee;
@@ -8,8 +8,9 @@
 }
 
 body {
+  position: relative;
 	padding: 0;
-	margin: 0;
+	margin: 102px 0 0 0 ;
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	font-size: 1.5em;
@@ -20,6 +21,29 @@ body {
 	overflow-x: hidden;
 	background: var(--bg);
 	color: var(--text);
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 4px solid #888;
+  background: #ddd;
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 12px 0;
+  box-shadow: 0 0 10px #000;
+
+  h1 {
+    margin: 0;
+    padding: 0;
+    font-size: smaller;
+    a {
+    	font-weight: 300;
+      color: #444;
+    }
+  }
 }
 
 a {
@@ -92,10 +116,6 @@ section {
   a:hover {
   	text-decoration: underline;
   }
-}
-
-h1 {
-	font-weight: 300;
 }
 
 h2 {
@@ -190,7 +210,8 @@ h1, h2, h3, h4 {
 	display: block;
 	background-image: url('/assets/img/avatar.jpg');
 	background-size: cover;
-	border: 5px solid var(--bg2);
+	border: 5px solid #888;
+  box-shadow: 0 0 20px #111;
 }
 
 .gallery {
@@ -244,7 +265,6 @@ h1, h2, h3, h4 {
 		.p-wrap {
       border-radius: 5px;
 			padding: 10px;
-			background: var(--bg2);
 			color: var(--link);
 			margin-bottom: 5px;
 			p {
@@ -258,8 +278,7 @@ h1, h2, h3, h4 {
 		}
 		a:hover {
 			.p-wrap {
-				background: var(--link);
-				color: var(--bg2);
+				background: var(--bg2);
 			}
 		}
 	}
@@ -267,7 +286,6 @@ h1, h2, h3, h4 {
 
 #social {
 	text-align: center;
-	margin: 20px 0;
 }
 
 #social a {
@@ -287,14 +305,31 @@ h1, h2, h3, h4 {
 }
 
 #social svg path {
-	fill: var(--link);
-	transition: .25s;
+	fill: #888;
 }
 
-.footer {
+#social a:hover {
+  border-radius: 4px;
+  svg path {
+    fill: #333;
+  }
+}
+
+#footer {
+  border-top: 4px solid #888;
+  background: #ddd;
 	text-align: center;
 	font-size: smaller;
 	margin-top: 50px;
+  box-shadow: 0 0 10px #000;
+
+  section {
+    color: #888;
+
+    a {
+      color: #000;
+    }
+  }
 }
 
 /* Media quries */
