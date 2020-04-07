@@ -39,5 +39,5 @@ Smartphone-based contact tracing is within our reach. I've laid out a plan that 
 
 How to get involved or learn more:
 - Check out the website: [TrackCOVID.net](https://trackcovid.net/)
-- Leave your contact info in [interest form](https://docs.google.com/forms/d/e/1FAIpQLSfj8AxQ5hVYF2cvlZGv1yopOCLHn71NigqPjyFYSv6sEaQijg/viewform). I will get back to you as quickly as possible.
+- Leave your contact info in the [interest form](https://docs.google.com/forms/d/e/1FAIpQLSfj8AxQ5hVYF2cvlZGv1yopOCLHn71NigqPjyFYSv6sEaQijg/viewform). I will get back to you as quickly as possible.
 - Email me directly: [contact@tyleryasaka.me](mailto:contact@tyleryasaka.me)
