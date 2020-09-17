@@ -13,6 +13,14 @@ title: Homepage
   <div id="posts">
     <div id="home">
       <ul class="posts">
+        <li itemscope itemtype="http://schema.org/BlogPosting">
+          <div class="p-wrap" style="text-align: center">
+            <article class="inner">
+              Nontraditional pre-medical student who is motivated to bring technology and medicine to people.
+            </article>
+          </div>
+        </li>
+        {% comment %}
         {% for post in paginator.posts %}
         <li itemscope itemtype="http://schema.org/BlogPosting">
           <a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">
@@ -28,6 +36,7 @@ title: Homepage
           </a>
         </li>
         {% endfor %}
+        {% endcomment %}
       </ul>
     </div>
   </div>
