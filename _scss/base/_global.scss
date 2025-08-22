@@ -41,8 +41,9 @@ body {
     padding: 0;
     font-size: smaller;
     a {
-    	font-weight: 300;
+      font-weight: 300;
       color: #26dad1;
+	  transition: color 0.5s;
     }
     a:hover {
       color: #d65afc;
