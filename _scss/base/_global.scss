@@ -305,13 +305,15 @@ h1, h2, h3, h4 {
 }
 
 #social svg path {
-	fill: #888;
+	fill: #26dad1;
+	transition: fill 0.5s;
 }
 
 #social a:hover {
   border-radius: 4px;
   svg path {
-    fill: #333;
+    fill: #d65afc;
+	transition: fill 0.5s;
   }
 }
 
@@ -396,10 +398,12 @@ article.single-content {
 
 #posts li a {
   color: #26dad1;
+  transition: color 0.5s, text-decoration 0.5s;
 }
 
 #posts li a:hover {
-  color: #26dad1;
+  color: #d65afc;
   text-decoration: underline;
+  transition: color 0.5s, text-decoration 0.5s;
 }
 
